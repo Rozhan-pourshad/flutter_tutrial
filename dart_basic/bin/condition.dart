@@ -27,5 +27,22 @@ void main() {
     print(salary - (salary * 0.10));
   } else {
     print(salary - (salary * 0.12));
+    var role = 'admin';
+    role = role.toLowerCase();
+    switch (role) {
+      case 'admin':
+        print('welcome admin');
+
+        break;
+      case 'user':
+        print('welcome user');
+        break;
+      case 'guest':
+        print('wwelcome guest');
+        break;
+      default:
+        print('you should have a role!');
+        break;
+    }
   }
 }
