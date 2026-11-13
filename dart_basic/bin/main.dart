@@ -1,0 +1,32 @@
+void main() {
+  int number = 10;
+  print('The number is : $number');
+  double pi = 3.14;
+  print('The value of pi is: $pi');
+  num result = number * pi;
+  print('The result of multiyplying $number and $pi is : $result');
+  bool mod = true;
+  print('The value of mod is: $mod');
+  String name = 'rozhan';
+  print('MY NAME IS : $name');
+  print('Hello, Dart!');
+  final String greeting ='Welcome to Dart programming!';
+  print('Greeting: $greeting');
+  late int age;
+  age = 25;
+  print('Age: $age');
+  late final String city;
+  city = 'New York';
+  print('City : $city');
+  Object obj = 'This is an object';
+  print('Object: $obj');
+  obj =42;
+  print('Object after reassignment: $obj');
+  dynamic dynamicVar = ' I can change type';
+  dynamicVar = 100;
+  print('Dynamic variable: $dynamicVar');
+  var inferredVar = 'I am inferred as a String';
+  print('Inferred variable: $inferredVar');
+  const double gravity = 9.8;
+  print('Gravity: $gravity');
+}
